@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="undo" />
+
+        <Button
+            android:id="@+id/btn_redo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="redo" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_paint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="paint" />
+
+        <Button
+            android:id="@+id/btn_eraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eraser" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="black" />
+
+        <Button
+            android:id="@+id/btn_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="white" />
+
+        <Button
+            android:id="@+id/btn_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="red" />
+
+        <Button
+            android:id="@+id/btn_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blue" />
+    </LinearLayout>
+
+    <yang.sketch.draw.DrawingView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
